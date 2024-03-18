@@ -1,5 +1,2 @@
 
-import pSet from "./ProposalSet.mjs";
-
-
-export default pSet;
+export { default } from "./ProposalSet.mjs";

@@ -1,16 +1,17 @@
 {
   "name": "proposal-set",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "",
   "main": "./dist/index.mjs",
   "homepage": "https://github.com/bn-l/ProposalSet",
-
   "files": [
     "dist/"
   ],
   "scripts": {
     "start:dev": "ts-node",
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "lint": "npx eslint source --ext .mts",
+    "lint:strict": "npx eslint --config ./eslint-strict.json source --ext .mts"
   },
   "engines": {
 		"node": "^12.17.0 || ^14.13 || >=16.0.0"

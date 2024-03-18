@@ -60,6 +60,4 @@ export default class ProposalSet<T = any> extends Set<T> {
      * {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/union | MDN Web Docs: Set.prototype.union}
      */
     union: (otherSet: Set<T>) => Set<T> = union;
-    
-    
 }
