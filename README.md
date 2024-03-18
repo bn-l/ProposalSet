@@ -23,7 +23,7 @@ have everything grouped together in one place.
 ## Use
 
 ```typescript
-import { pSet } from "proposal-set";
+import pSet from "proposal-set";
 
 const x = new pSet([1, 2, 3]);
 const y = new pSet([1, 2]);
