@@ -22,7 +22,7 @@ interface ProposalSet<T> extends Set<T> {
      */
     difference(otherSet: Set<T>): Set<T>;
     /**
-     * Items that common between A and B.
+     * Items that are common between A and B.
      * 
      * {@link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/intersection | MDN Web Docs: Set.prototype.intersection}
      */

@@ -1,6 +1,6 @@
 {
   "name": "proposal-set",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "main": "./dist/index.mjs",
   "homepage": "https://github.com/bn-l/ProposalSet",
@@ -43,5 +43,26 @@
     "set.prototype.issupersetof": "^1.1.1",
     "set.prototype.symmetricdifference": "^1.1.1",
     "set.prototype.union": "^1.1.1"
-  }
+  },
+  "keywords": [
+    "proposal",
+    "set",
+    "esnext",
+    "es2023",
+    "es2024",
+    "difference",
+    "intersection",
+    "isdisjointfrom",
+    "issubsetof",
+    "issupersetof",
+    "symmetricdifference",
+    "union",
+    "Set.prototype.difference",
+    "Set.prototype.intersection",
+    "Set.prototype.isdisjointfrom",
+    "Set.prototype.issubsetof",
+    "Set.prototype.issupersetof",
+    "Set.prototype.symmetricdifference",
+    "Set.prototype.union"
+  ]
 }

@@ -11,7 +11,7 @@ npm install proposal-set
 
 ## Description
 
-An expanded javascript and typescript set that has all current set proposals with type information,
+An expanded javascript and typescript set that has all current set proposals with type information and
 intellisense explanations. Works in node and in the browser. Stop reinventing the wheel
 and start using extremely elegant, concise, and performant set operations. As a shim it will test if there's
 a native implementation and use that first—so this package won't become an issue in the future. 
@@ -57,7 +57,7 @@ Everything in A that's not in B:
 
 [MDN Web Docs: Set.intersection](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/intersection)
 
-Items that common between A and B.
+Items that are common between A and B.
 
 ![alt text](images/Set.intersection.png)
 
