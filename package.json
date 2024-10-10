@@ -14,8 +14,8 @@
     "lint:strict": "npx eslint --config ./eslint-strict.json source --ext .mts"
   },
   "engines": {
-		"node": "^12.17.0 || ^14.13 || >=16.0.0"
-	},
+    "node": "^12.17.0 || ^14.13 || >=16.0.0"
+  },
   "repository": "github:bn-l/ProposalSet",
   "author": "bn-l",
   "license": "MIT",
@@ -37,6 +37,7 @@
     "typescript-eslint": "^7.1.0"
   },
   "dependencies": {
+    "braces": "^3.0.3",
     "set.prototype.difference": "^1.1.3",
     "set.prototype.intersection": "^1.1.3",
     "set.prototype.isdisjointfrom": "^1.1.2",
